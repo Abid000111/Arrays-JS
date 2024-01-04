@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arrays - JS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="page-heading">
+            <h1>
+                This page is about Array and its method in JS
+            </h1>
+        </div>
+
+        <div class="p">
+            <p>
+                Array is a linear way to store one kind of information. Such as:
+            </p><br>
+
+            <p>
+            <pre class="code"><code>let marks = [11, 22, 33, 44, 55];
+console.log(marks);
+console.log(marks.length);  // length is a property in array</code></pre>
+            </p> <br>
+        </div>
+
+        <div class="p">
+            <p>
+            <ul>
+                <li>Arrays are object</li>
+                <li>There are key:value pair but little different</li>
+                <li>In arrays we use index instead of key</li>
+                <li>mutable</li>
+            </ul>
+            </p> <br>
+
+            <p>
+                <span class="notice"># Notice:</span>This is not valid to access the index of array: <br><br>
+            <pre class="code"><code> console.log(marks.charAt(2));</code></pre>
+            </p>
+        </div>
+
+        <div class="p">
+            <p>
+                To change value:<br> <span class="notice"># Notice:</span> <span>This way is only for array. This is not
+                    possible for string.</span> <br><br>
+            <pre class="code"><code>marks[0] = 99;
+console.log(marks[0]);</code></pre>
+            </p>
+        </div>
+
+        <div class="p">
+            <p>
+                Looping over array (try some different by your own such as for of loop and for in lop and look what
+                happens) :<br><br>
+            <pre class="code"><code>let marks = [99, 22, 33, 44, 55];
+for(let i = 0; i &lt marks.length; i++){
+    console.log(marks[i]);
+}
+            </code></pre>
+            </p>
+        </div>
+
+        <div class="p">
+            <p>
+                push() method to add new value in the end of array: <br><br>
+            <pre class="code"><code>let food = ["Burger", "Pizza", "Chips"];
+food.push("Noodles", "Sandwich", "French fry");
+console.log(food);
+            </code></pre>
+            </p>
+        </div>
+
+        <div class="p">
+            <p>
+                pop() method to delete the last element: <br><br>
+            <pre class="code"><code>let food = ["Burger", "Pizza", "Chips"];
+food.pop();
+console.log(food);
+            </code></pre>
+            </p>
+        </div>
+
+        <div class="p">
+            <p>
+                toString() method to convert the array temporarily in a string. It converts the number array to a single
+                string: <br><br>
+            <pre class="code"><code>let food = ["Burger", "Pizza", "Chips"];
+console.log(food.toString());
+            </code></pre>
+            </p>
+        </div>
+
+        <div class="p">
+            <p>
+                concat() method to add more then one arrays together. It doesn't change the main array: <br><br>
+            <pre class="code"><code>let food = ["chips", "juice"];
+let fruit = ["apple", "banana"];
+let foodFruit = food.concat(fruit);
+console.log(foodFruit);
+                </code></pre>
+            </p>
+        </div>
+
+        <div class="p">
+            <p>
+                unshift() method to add a new element in the beginning. It works like push() method.
+            </p>
+        </div>
+
+        <div class="p">
+            <p>
+                shift() method to delete the first element of the array. It works like pop() method.
+            </p>
+        </div>
+
+        <div class="p">
+            <p>
+                slice() method to get a slice of array like string. It doesn't change the original array.
+            </p>
+        </div>
+
+        <div class="p">
+            <p>
+                splice() method to add, replace or delete element in array. It changes the original array: <br>
+                # to add: <br><br>
+            <pre class="code"><code>
+let num = [1, 2, 3, 4, 5, 6, 7];
+num.splice(2, 0, 111);
+console.log(num);
+            </code></pre>
+            <br>#to delete: <pre class="code"><code>
+let num = [1, 2, 3, 4, 5, 6, 7];
+num.splice(3, 2);
+console.log(num);
+            </code></pre>
+            <br># to replace: <pre class="code"><code>
+let num = [1, 2, 3, 4, 5, 6, 7];
+num.splice(1, 1, 777);
+console.log(num);
+            </code></pre>
+            <br> # to delete everything after a specific number: <pre class="code"><code>
+let num = [1, 2, 3, 4, 5, 6, 7];
+num.splice(3);
+console.log(num);
+            </code></pre>
+            </p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
