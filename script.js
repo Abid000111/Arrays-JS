@@ -6,14 +6,12 @@
 // marks[0] = 99;
 // console.log(marks[0]);
 
-
 // let marks = [99, 22, 33, 44, 55];
 // for(let i = 0; i < marks.length; i++){    // output : 99
 //     console.log(marks[i]);                //          22
 // }                                         //          33
 //                                           //          44
 //                                           //          55
-
 
 // let marks = [99, 22, 33, 44, 55];
 // for(let i in marks){                 // output : 0
@@ -22,14 +20,12 @@
 //                                      //          3
 //                                      //          4
 
-
 // let marks = [99, 22, 33, 44, 55];
 // for (let i in marks) {               // output : [ 99, 22, 33, 44, 55 ]
 //     console.log(marks);              //          [ 99, 22, 33, 44, 55 ]
 // }                                    //          [ 99, 22, 33, 44, 55 ]
 //                                      //          [ 99, 22, 33, 44, 55 ]
 //                                      //          [ 99, 22, 33, 44, 55 ]
-
 
 // let marks = [99, 22, 33, 44, 55];
 // for(let i in marks){                 // output : 99
@@ -45,7 +41,6 @@
 //                                      //          44
 //                                      //          55
 
-
 // let marks = [99, 22, 33, 44, 55];
 // for (let i of marks){                // output : [ 99, 22, 33, 44, 55 ]
 //     console.log(marks);              //          [ 99, 22, 33, 44, 55 ]
@@ -53,16 +48,9 @@
 //                                      //          [ 99, 22, 33, 44, 55 ]
 //                                      //          [ 99, 22, 33, 44, 55 ]
 
-
-
-
-
 // let marks = [99, 22, 33, 44, 55];
-// for (let i of marks){                   // output : undefined
-//     console.log(marks[i]);              //          undefined
-// }                                       //          undefined
-                                           //          undefined
-                                           //          undefined
+// for (let i of marks) {
+// 	console.log(marks[i]);
 
 
 
@@ -73,8 +61,6 @@
 // }
 // average = sum / marks.length;
 // console.log(average);
-
-
 
 // let price = [100, 200, 300, 400, 500];
 
@@ -87,8 +73,6 @@
 //     sum = sum + 1;
 // }
 // console.log(price);
-
-
 
 // let food = ["Burger", "Pizza", "Chips"];
 
@@ -115,7 +99,6 @@
 // food.unshift("cake");
 // console.log(food);
 
-
 // replace
 // let num = [1, 2, 3, 4, 5, 6, 7];
 // num.splice(1, 1, 777);
@@ -135,4 +118,3 @@
 // let num = [1, 2, 3, 4, 5, 6, 7];
 // num.splice(3);
 // console.log(num);
-

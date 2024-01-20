@@ -1,32 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.page-heading{
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
+.page-heading {
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
 }
 
-.p{
-    margin: 10px;
-    padding: 10px;
+.p {
+	margin: 10px;
+	padding: 10px;
 }
 
-.code{
-    /* text-align: center; */
-    border: 3px solid;
-    min-height: 2.5vh;
-    width: 65vw;
-    margin: 5px;
-    padding: 5px;
-    overflow: auto;
+.code {
+	/* text-align: center; */
+	border: 3px solid;
+	min-height: 2.5vh;
+	width: 65vw;
+	margin: 5px;
+	padding: 5px;
+	overflow: auto;
 }
 
-.notice{
-    color: red;
-    text-decoration: 3px underline;
-    font-size: 20px;
-    font-weight: bold;
+.notice {
+	color: red;
+	text-decoration: 3px underline;
+	font-size: 20px;
+	font-weight: bold;
 }
